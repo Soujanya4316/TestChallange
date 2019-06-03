@@ -24,7 +24,7 @@ Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) 
 
 1. Make sure [Node.js](https://nodejs.org/) is installed
 2. Navigate to the root of the repo
-3. Use the `npm install` command
+3. Use the `npm install` command to istall node modules.
 4. Use npm `npm install -g testcafe` to install testcafe
 5. Install Cucumber(Gherkin) full support and Powershell extension on VS code
 
