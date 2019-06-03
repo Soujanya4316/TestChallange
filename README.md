@@ -25,6 +25,8 @@ Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) 
 1. Make sure [Node.js](https://nodejs.org/) is installed
 2. Navigate to the root of the repo
 3. Use the `npm install` command
+4. Use npm `npm install -g testcafe` to install testcafe
+5. Install Cucumber(Gherkin) full support and Powershell extension on VS code
 
 ## Running tests
 
@@ -54,7 +56,12 @@ You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 ## Notes
 
-* As of the time I am writting this, there is only 1 passing test of 3. I decided to not make all of the tests passing, so you could see how failures are handled. 
+
+* As i have already defined @test tag in scripts file and package.json file. Can use @test tag at the top of feature file and run ./run_test.ps1.
+
+* Go to the workspace and give the command 'cd scripts' first before running the scripts.
+
+* As of the time I am writting this, there is only 6 AC's passing test of 7.
 
 * My solution closes the TestCafé browser between each scenario. I tried to keep it open between scenarios but had trouble with handling failures. If you find a solution, I'd like to know.
 
