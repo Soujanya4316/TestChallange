@@ -31,7 +31,7 @@ Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) 
 ## Running tests
 
 ### Windows
-You can run tests by executing the `.\node_modules\.bin\cucumber-js.cmd` or `npm test` commands in command prompt
+You can run tests by executing the `.\node_modules\.bin\cucumber-js.cmd` or `./run_test.ps1` commands in command prompt
 
 ### Mac or Linux
 You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
