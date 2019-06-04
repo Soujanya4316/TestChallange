@@ -1,3 +1,6 @@
+# Test_Challenge_All_ACs
+Test Challenge with all AC's
+
 # Integration of TestCafe and CucumberJS
 
 This is a demonstration of integration [TestCafé](https://github.com/DevExpress/testcafe) into [CucumberJS](https://github.com/cucumber/cucumber-js) tests using TestCafe and Cucumber.
@@ -30,11 +33,11 @@ Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) 
 
 ## Running tests
 
+Use command `cd scripts` to get into the scripts folder before running the scripts
+Use `./run_test.ps1` to run the script
+
 ### Windows
 You can run tests by executing the `.\node_modules\.bin\cucumber-js.cmd` or `./run_test.ps1` commands in command prompt
-
-### Mac or Linux
-You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 ## Documentation
 * [Initial Setup](https://github.com/rquellh/testcafe-cucumber/wiki/Initial-Setup)
@@ -56,12 +59,11 @@ You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 ## Notes
 
-
 * As i have already defined @test tag in scripts file and package.json file. Can use @test tag at the top of feature file and run ./run_test.ps1.
 
 * Go to the workspace and give the command 'cd scripts' first before running the scripts.
 
-* As of the time I am writting this, there is only 6 AC's passing test of 7.
+* Have completed all the AC's. AC 1-6 in duckGo.feature and AC7 in duckGoTraffic.feature.
 
 * My solution closes the TestCafé browser between each scenario. I tried to keep it open between scenarios but had trouble with handling failures. If you find a solution, I'd like to know.
 
