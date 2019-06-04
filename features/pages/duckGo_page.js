@@ -30,7 +30,7 @@ module.exports = {
          firstsearchsuggession: async function() {
             var elementSelected1 = Selector('#search_form_homepage > .search__autocomplete > .acp-wrap > .acp').with({ boundTestRun: testController });
             var firstSuggesion =  await elementSelected1.nth(0).innerText;
-            console.log('First search suggestion in dropdown is' + firstSuggesion);
+            console.log(firstSuggesion);
             return firstSuggesion;
          },
 
@@ -44,7 +44,7 @@ module.exports = {
          searchResultCount: async function() {
             var searchResultsSelector = Selector('.js-results > .results_links_deep').with({ boundTestRun: testController })
             var searchResultTotalCount = await searchResultsSelector.count
-            //console.log(`Total number of search results for ${searchText} is : ` + searchResultTotalCount);
+            console.log('Total count of search results is : ' + searchResultTotalCount);
             return searchResultTotalCount;
          }            
      
